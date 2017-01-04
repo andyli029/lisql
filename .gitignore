@@ -17,7 +17,9 @@ mysql-3.23.49/*/Makefile
 mysql-3.23.49/*/*/Makefile
 mysql-3.23.49/libtool
 mysql-3.23.49/Docs/*
-mysql-3.23.49/config.*
+mysql-3.23.49/config.cache
+mysql-3.23.49/config.log
+mysql-3.23.49/config.h
 
 mysql-3.23.49/libmysql/*
 mysql-3.23.49/libmysql_r/*
