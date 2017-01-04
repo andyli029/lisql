@@ -146,7 +146,7 @@
 /* #undef HAVE_INT_8_16_32 */
 
 /* Using Innobase DB */
-/* #undef HAVE_INNOBASE_DB */
+#define HAVE_INNOBASE_DB 1
 
 /* Define if have -lwrap */
 /* #undef HAVE_LIBWRAP */
@@ -253,7 +253,7 @@
 #define STRUCT_DIRENT_HAS_D_INO 1
 
 /* Define to name of system eg solaris*/
-#define SYSTEM_TYPE "pc-linux-gnuoldld"
+#define SYSTEM_TYPE "unknown-linux-gnu"
 
 /* Define if you want to have threaded code. This may be undef on client code */
 #define THREAD 1

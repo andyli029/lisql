@@ -8,8 +8,8 @@ VERSION="3.23.49"
 COMPILATION_COMMENT="Source distribution"
 BUGmysql="mysql@lists.mysql.com"
 # This is set by configure
-COMP_ENV_INFO="CC='gcc'  CFLAGS='-m32 -DPTHREAD_ADAPTIVE_MUTEX_INITIALIZER_NP'  CXX='c++'  CXXFLAGS='-m32'  LDFLAGS=''"
-CONFIGURE_LINE="./configure  --with-debug=yes"
+COMP_ENV_INFO="CC='gcc'  CFLAGS=''  CXX='c++'  CXXFLAGS=''  LDFLAGS=''"
+CONFIGURE_LINE="./configure  --prefix=/letv/lizha/mysql --with-mysqld-ldflags=-all-static --with-innodb --with-debug"
 
 LIBC_INFO=""
 for pat in /lib/libc.* /lib/libc-* /usr/lib/libc.* /usr/lib/libc-*
