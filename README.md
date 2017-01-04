@@ -1,4 +1,5 @@
 # lisql
+cd mysql-3.23.49
 
 ./configure --prefix=/letv/lizha/mysql --with-mysqld-ldflags=-all-static --with-innodb --with-debug
 
