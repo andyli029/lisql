@@ -35,6 +35,10 @@
 #include <io.h>
 #endif
 
+#ifdef PTHREAD_ADAPTIVE_MUTEX_INITIALIZER_NP
+pthread_mutexattr_t my_fast_mutexattr;
+#endif
+
 /*****************************************************************************
 ** Instansiate templates
 *****************************************************************************/
