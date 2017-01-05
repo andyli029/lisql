@@ -202,3 +202,5 @@ support-files/mysql-3.23.49.spec
 support-files/mysql-log-rotate
 support-files/mysql.server
 support-files/mysql.spec
+
+mysql-3.23.49/libmysql_r/ctype_extra_sources.c
