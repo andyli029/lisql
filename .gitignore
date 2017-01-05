@@ -20,10 +20,10 @@ mysql-3.23.49/Docs/*
 mysql-3.23.49/config.cache
 mysql-3.23.49/config.log
 mysql-3.23.49/config.h
-
-mysql-3.23.49/libmysql/*
-mysql-3.23.49/libmysql_r/*
-mysql-3.23.49/support-files/*
+mysql-3.23.49/include/my_config.h
+#mysql-3.23.49/libmysql/*
+#mysql-3.23.49/libmysql_r/*
+#mysql-3.23.49/support-files/*
 
 mysql-3.23.49/client/.libs/
 mysql-3.23.49/client/insert_test
